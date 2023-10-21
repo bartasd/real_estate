@@ -1,17 +1,23 @@
 :root {
-    --header-width: 90%;
+    --header-width: 96%;
     --header-height: 53px;
-  }
+}
+
+body > div {
+    background-color: #fcd7cd;
+    width: var(--div-width);
+    margin-left: calc(50% - var(--header-width)/2);
+    margin-top: calc(50% - var(--header-width)/2);
+    margin-right: calc(50% - var(--header-width)/2);
+    border-radius: 27px 27px 0 0;
+}
 
 body {
     margin: 0;
 }
 
 header {
-    width: var(--header-width);
     height: var(--header-height);
-    margin-top: 20px;
-    margin-left: calc(50% - var(--header-width)/2);
 }
 
 @font-face {
@@ -20,7 +26,7 @@ header {
 }
 
 /* right section */
-div {
+div.right-section {
     float: right;
 }
 
@@ -31,7 +37,9 @@ a + a {
 /* menu links */
 nav > a {
     font-size: 24px;
+    font-family: Arial;
     text-decoration: none;
+    color: black;
 }
 
 /* User image link */
