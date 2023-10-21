@@ -1,0 +1,2 @@
+- palikti pakitusia navigacijos migtuko spalva - paspaudus
+- padaryti pasikeitusias spalvas - buy/rent + hoover
