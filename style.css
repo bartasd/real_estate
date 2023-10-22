@@ -4,7 +4,7 @@
 }
 
 body > div {
-    background-color: #fcd7cd;
+    background-color: white;
     width: var(--div-width);
     margin-left: calc(50% - var(--header-width)/2);
     margin-top: calc(50% - var(--header-width)/2);
@@ -14,6 +14,19 @@ body > div {
 
 body {
     margin: 0;
+    background-color: #fcd7cd;
+}
+
+main {
+    height: 500px;
+}
+section {
+    background-image: linear-gradient(120deg, rgb(216, 237, 255), rgb(231, 222, 211));
+    border-radius: 25px;
+    width: 94%;
+    height: 300px;
+    margin-left: 3%;
+    margin-top: 2.5%
 }
 
 header {
@@ -26,7 +39,7 @@ header {
 }
 
 /* right section */
-div.right-section {
+.right-header-section {
     float: right;
 }
 
@@ -72,4 +85,94 @@ a > img {
 nav {
     margin-top: 14px;
     float: left;
+}
+
+.main-title {
+    margin-left: 25px;
+    font-family: 'Twentieth Century'; 
+    font-size: 44px;
+    width: 50%;
+}
+
+.buy-buttons{
+    margin-left: 25px;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+}
+
+button {
+    margin-top: 3px;
+    height: 44px;
+    width: 145px;
+    border-radius: 10px;
+    border-style: hidden;
+    color: mediumslateblue;
+    background-color: white;
+}
+
+button:hover {
+    background-color: mediumslateblue;
+    color: white;
+}
+
+.button-buy {
+    margin-left: 3px;
+}
+
+.button-rent {
+}
+
+.button-src {
+    float:right;
+    width: 44px;
+    margin-right: 2px;
+    background-color: rgb(255, 147, 118);
+}
+.search-city {
+    float:left;
+    margin-top: 2px;
+    margin-left: 2px;
+    background-color: white;
+    height: 44px;
+    width: 245px;
+    border-radius: 15px;
+    border: 0px solid;
+    color: mediumslateblue;
+    text-indent: 20px;
+}
+
+.search-field {
+    margin-top: 7px;
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    margin-left: 25px;
+    border-radius: 15px;
+    border: 0px solid;
+    color: mediumslateblue;
+    text-indent: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+section > img {
+    float: right;
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+/* left section */
+.left-section {
+    float: left;
+    width: 700px;
+}
+
+/* right section */
+.right-section {
+    float: right;
 }
