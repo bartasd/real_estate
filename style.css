@@ -226,3 +226,18 @@ section > img {
     margin-left: 45px;
     margin-bottom: 11px;
 }
+
+.corner {
+    float:right;
+    padding: 8px;
+    background-color: brown;
+    border-radius: 0 15px 0 15px ;
+}
+
+.address {
+    margin-top: 100px;
+    position: relative;
+    padding: 8px;
+    background-color: brown;
+    border-radius: 15px 15px 15px 15px ;
+}
