@@ -9,7 +9,8 @@ body > div {
     margin-left: calc(50% - var(--header-width)/2);
     margin-top: calc(50% - 96%/2);
     margin-right: calc(50% - var(--header-width)/2);
-    border-radius: 27px 27px 0 0;
+    border-radius: 27px 27px 27px 27px;
+    height: 750px;
 }
 
 body {
@@ -189,7 +190,7 @@ section > img {
 }
 
 .text_lower {
-    margin-left: 50px;
+    margin-left: 30px;
     margin-right: 50px;
     margin-top: 20px;
     font-family: 'Twentieth Century';
@@ -198,11 +199,30 @@ section > img {
 }
 
 .left-footer {
-    background-color: white;
+   /* background-color: white;*/
     display: inline-block;
 }
 
 .right-footer {
-    background-color: white;
+   /* background-color: white;*/
     display: inline-block;
+}
+
+.listing {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    background-color: blue;
+    border-radius: 25px;
+    margin-left: 11px;
+}
+
+.listing2 {
+    display: block;
+    width: 300px;
+    height: 110px;
+    background-color: green;
+    border-radius: 25px;
+    margin-left: 45px;
+    margin-bottom: 11px;
 }
