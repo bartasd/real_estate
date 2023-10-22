@@ -112,16 +112,19 @@ button {
     background-color: white;
 }
 
+button.active {
+    margin-top: 3px;
+    height: 44px;
+    width: 145px;
+    border-radius: 10px;
+    border-style: hidden;
+    color: white;
+    background-color: mediumslateblue;
+}
+
 button:hover {
     background-color: mediumslateblue;
     color: white;
-}
-
-.button-buy {
-    margin-left: 3px;
-}
-
-.button-rent {
 }
 
 .button-src {
@@ -175,4 +178,30 @@ section > img {
 /* right section */
 .right-section {
     float: right;
+}
+
+.text {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Twentieth Century';
+    font-size: 26px;
+}
+
+.text_lower {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-family: 'Twentieth Century';
+    font-size: 16px;
+    color: gray;
+}
+
+.left-footer {
+    background-color: white;
+    display: inline-block;
+}
+
+.right-footer {
+    background-color: white;
+    display: inline-block;
 }
