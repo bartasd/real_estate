@@ -215,6 +215,7 @@ section > img {
     background-color: gray;
     border-radius: 25px;
     margin-left: 11px;
+    background-size: cover;
 }
 
 .listing2 {
@@ -230,8 +231,9 @@ section > img {
 .corner {
     float:right;
     padding: 8px;
-    background-color: rgb(168, 216, 252, 0.3);
+    background-color: white;
     border-radius: 0 15px 0 15px ;
+    position: relative
 }
 
 .address {
@@ -240,12 +242,26 @@ section > img {
     margin-right: 15px;
     position: relative;
     padding: 8px;
-    background-color: rgb(168, 216, 252, 0.2);
+    background-color: rgba(37, 198, 226, 0.247);
     border-radius: 15px 15px 15px 15px;
     color: rgb(123, 104, 238);
+    display: inline-block;
+}
+
+.address2 {
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    padding: 8px;
+    background-color: rgba(37, 198, 226, 0.247);
+    border-radius: 15px 15px 15px 15px;
+    color: rgb(123, 104, 238);
+    display: inline-block;
 }
 
 .address-text {
     margin: 0;
     font-size: 20px;
+    font-weight: bold;
 }
