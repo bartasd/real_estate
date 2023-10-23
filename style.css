@@ -135,6 +135,17 @@ button:hover {
     margin-right: 2px;
     background-color: rgb(255, 147, 118);
 }
+
+.button-see-all {
+    float:left;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 150px;
+    margin-right: 2px;
+    background-color: rgb(255, 147, 118);
+    display: block;
+    color: white;
+}
 .search-city {
     float:left;
     margin-top: 2px;
@@ -199,13 +210,19 @@ section > img {
 }
 
 .left-footer {
-   /* background-color: white;*/
     display: inline-block;
+    margin-left: 25px;
 }
 
 .right-footer {
-   /* background-color: white;*/
     display: inline-block;
+}
+
+.mid-footer {
+    height: 230px;
+    width: 220px;
+    display: inline-block;
+    float: right;
 }
 
 .listing {
@@ -221,11 +238,14 @@ section > img {
 .listing3 {
     display: inline-block;
     width: 220px;
-    height: 220px;
+    height: 165px;
     background-color: gray;
     border-radius: 25px;
     margin-left: 11px;
     background-size: cover;
+    margin-top: 3px;
+    margin-right: 11px;
+    background-color: yellow;
 }
 
 .listing2 {
@@ -243,29 +263,28 @@ section > img {
     padding: 8px;
     background-color: white;
     border-radius: 0 15px 0 15px ;
-    position: relative
 }
 
 .address {
-    margin-top: 100px;
+    margin-top: 130px;
     margin-left: 15px;
     margin-right: 15px;
     padding: 8px;
     background-color: rgba(37, 198, 226, 0.247);
     border-radius: 15px 15px 15px 15px;
     color: rgb(123, 104, 238);
-    display: inline-block;
+    display: block;
 }
 
 .address2 {
-    margin-top: 40px;
+    margin-top: 70px;
     margin-left: 15px;
     margin-right: 15px;
     padding: 8px;
     background-color: rgba(37, 198, 226, 0.247);
     border-radius: 15px 15px 15px 15px;
     color: rgb(123, 104, 238);
-    display: inline-block;
+    display: block;
 }
 
 .address-text {
